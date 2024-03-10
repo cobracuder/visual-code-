@@ -17,6 +17,7 @@ void display2(int *val, int *stride, int *shape, int rank, int totalSize) {
             remainder /= shape[j];
         }
         cout<< val[index]<<" ";
+         if(i%(shape[rank-1]-1)==0)cout<<endl;
     }
 }
 //hello
