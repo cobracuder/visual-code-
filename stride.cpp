@@ -38,3 +38,4 @@ int main() {
     cout<<"\nnoncontiguous case:\n";
     display2(val,nonconti,shape,rank,numele);
 }
+/*stride is basically work similar to offset. It gives the index of element in flatten array.*/
