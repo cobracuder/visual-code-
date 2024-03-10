@@ -16,7 +16,6 @@ void display2(int *val, int *stride, int *shape, int rank, int totalSize) {
             index += (remainder % shape[j]) * stride[j];
             remainder /= shape[j];
         }
-        // Copy value from non-contiguous tensor to contiguous tensor
         cout<< val[index]<<" ";
     }
 }
