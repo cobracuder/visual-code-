@@ -6,17 +6,7 @@ void generate_data(int* val,int numele){
         val[i]=rand()%1000;
     }
 }
-void display(int* val, int*stride,int *shape,int rank) {
-for(int i=1;i<rank;i++) {
-    shape[i]=stride[i-1]/stride[i];
-} 
-for(int i = 0;i<shape[0];i++){
-    for(int j=0;j<shape[1];j++){
-        cout<<val[i*stride[0]+j*stride[1]]<<" ";
-    }
-    cout<<endl;
-} 
-}
+
 void display2(int *val, int *stride, int *shape, int rank, int totalSize) {
     for (int i = 0; i < totalSize; i++) {
         int index = 0;
