@@ -33,7 +33,7 @@ void display2(int *val, int *stride, int *shape, int rank, int totalSize) {
     // Return the contiguous tensor
     
 }
-
+//hello
 
 int main() {
     int shape[]={4,4,5};
